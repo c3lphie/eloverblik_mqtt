@@ -1,0 +1,8 @@
+[general]
+eloverblik_token = "<API Token>" # Get refresh token from eloverblik.dk, note only one meter is supported.
+timezone = "Europe/Copenhagen"
+price_class = "DK1"
+
+[mqtt]
+server = "mqtt.eclipseprojects.io" # Change to your MQTT server, credentials not currently supported
+topic = "energy/price/current"
